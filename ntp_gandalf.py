@@ -46,7 +46,7 @@ while True:
     START="2023-09-08 12:15:00"
 
 
-    start_time = (datetime.datetime(2023, 9,8, 12, 27,30) - datetime.datetime(1970,1,1)).total_seconds()
+    start_time = (datetime.datetime(2023, 9,8, 13, 27,30) - datetime.datetime(1970,1,1)).total_seconds()
     print("start", start_time)
     # get the difference between the two times
     # and convert it to seconds
